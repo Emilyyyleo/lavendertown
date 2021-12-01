@@ -1,0 +1,233 @@
+/* Index Html page specifics */
+
+      .bgindex {
+ background-image: url("../images/dreamy.gif");
+ background-size:cover; 
+ background-color: plum;
+}
+
+/* The text animations from Page 1 */
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 56ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'VT323', monospace;
+  font-size: 3em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+  
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+  /* Train page specifics*/
+
+        .bgtrainp {
+    background-image: url("../images/trainpage.png");
+    background-size:cover; 
+  }
+
+.typing-demotrainpage {
+  width: 41ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'VT323', monospace;
+  font-size: 3em;
+  color: rgb(255, 232, 236);
+}
+
+/* return page specifics */
+
+      .bgreturn {
+  background-image: url("../images/return.png");
+}
+
+.typing-demoreturn{
+  width: 60ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'VT323', monospace;
+  font-size: 3em;
+  color:rgb(255, 254, 170);
+}
+
+/*Train Lobby page specifics */
+
+      .bgtrainlobby {
+  background-image: url("../images/trainlobby.png");
+  background-size: contain
+}
+
+.typing-demotrainlobby{
+  width: 21ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'VT323', monospace;
+  font-size: 3em;
+  color: azure;
+}
+
+/* Pick Page specifics! */
+
+.bgpick {
+  background-image: url("../images/pick.png");
+  background-size:auto; 
+
+}
+
+.typing-demopick{
+  width: 25ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'VT323', monospace;
+  font-size: 3em;
+  color: rgb(255, 232, 236);
+}
+
+/* mermaid specifics!! */
+
+.bgmermaid {
+  background-image: url("../images/dreamysky.gif");
+  background-size:cover; 
+  height: 100vh;
+  padding:0;
+  margin:0;
+  background-color:rgb(130, 229, 233); 
+  background-size: contain
+}
+
+.video {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.typing-demoasmr {
+  width: 50ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'VT323', monospace;
+  font-size: 3em; }
+
+/* Mushroom page specifics!! */
+
+.bgmushroom {
+  background-color:rgb(255, 232, 236);
+  background-image: url("../images/dreamysky.gif");
+}
+
+/* Candy land Page specifics!! */
+
+.bgcandyland {
+background-image: url("../images/dreamysky.gif");
+}
+
+  /* Button!!!! */
+
+.button-8 {
+  background-color: #a6ffff;
+  border-radius: 3px;
+  border: 1px solid #fff3b2;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #ff8ec6;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  /* margin-left: 400px; */
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #eab3d5;
+  color: #772c5a;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(255, 0, 221, 0.15);
+}
+
+.button-8:active {
+  background-color: #e4a0d0;
+  box-shadow: none;
+  color: #772c52;
+}
+
+/* .container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+} */
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centerpick {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 48%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centermermaid {
+margin: 0;
+position: absolute;
+top: 35%;
+left: 48%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+cursor: <style type="text/css">* {cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym757.ani), url(https://ani.cursors-4u.net/symbols/sym-8/sym757.png), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2014/03/25/baby-blue-spinning-heart-within-a-heart.html" target="_blank" title="Baby Blue Spinning Heart Within A Heart"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Baby Blue Spinning Heart Within A Heart" style="position:absolute; top: 0px; right: 0px;" /></a>
